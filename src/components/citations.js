@@ -40,6 +40,11 @@ function Citations() {
           <br></br>
           https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914_0/explore
           <br></br>
+          https://legacy.reactjs.org/<br></br>
+          https://tailwindcss.com/<br></br>
+          https://datahub.io/core/sea-level-rise<br></br>
+          https://flourish.studio/<br></br>
+          https://datacatalog.worldbank.org/search/dataset/0038272<br></br>
         </p>
       </div>
     </div>
