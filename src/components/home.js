@@ -31,6 +31,21 @@ function Home() {
           Start
         </button>
       </div>
+      <div className="container p-4 bg-white">
+        <h2 className="text-2xl font-medium m-2">About</h2>
+        <p className="text-justify">
+          I made this project to explore the potential of combining data
+          visualization with the principles of fun theory to create engaging and
+          interactive experiences. Fun theory is the concept of incorporating
+          fun and playfulness into non-game contexts to encourage positive
+          behavior change and engagement. Through this project, I aim to develop
+          interactive visualizations that not only present data in a visually
+          compelling manner but also stimulate curiosity, encourage exploration,
+          and evoke emotions. By integrating fun and playfulness into the design
+          of the visualizations, I hope to enhance the user experience, increase
+          engagement, and ultimately improve data comprehension and retention.
+        </p>
+      </div>
     </div>
   );
 }
