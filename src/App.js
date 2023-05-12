@@ -4,6 +4,7 @@ import Quiz from "./components/quiz";
 import Result from "./components/results";
 import Home from "./components/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Citations from "./components/citations";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/penguins" element={<Penguins />} />
           <Route path="/content" element={<Content />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/citations" element={<Citations />} />
         </Routes>
       </Router>
     </div>
