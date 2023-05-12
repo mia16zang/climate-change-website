@@ -7,8 +7,9 @@ function Area() {
   return (
     <div style={{ height: "800px" }}>
       <iframe
+        title="Chart 4"
         className="w-full h-full"
-        src="https://public.flourish.studio/visualisation/13728373/embed?auto=1&header=0&footer=0"
+        src={chartUrl}
         allowFullscreen
         frameBorder="0"
       ></iframe>

@@ -2,7 +2,6 @@ import React from "react";
 import MyChart from "./chart";
 import MyStory from "./chart2";
 import Carousel from "./carousel";
-import MySankey from "./chart3";
 import Navbar from "./navbar";
 
 function Content() {
@@ -12,7 +11,7 @@ function Content() {
         <Navbar />
       </div>
       <div className="bg-white w-full grid justify-items-start w-2/3">
-        <img src="/images/penguin-rsl.jpg" alt="Description of image" />
+        <img src="/images/penguin-rsl.jpg" alt="penguin1" />
       </div>
       <div className="w-full p-4 mb-2 bg-blue-100 grid grid-cols-3">
         <div className="container mr-8 p-4 pr-8 pt-40  col-span-1 flex-col items-center">
@@ -39,7 +38,7 @@ function Content() {
         </div>
       </div>
       <div className="container bg-white w-full items-end">
-        <img src="/images/penguin-mic.jpg" alt="Description of image" />
+        <img src="/images/penguin-mic.jpg" alt="penguin2" />
       </div>
       <div className="w-full p-4 mb-2 bg-blue-100 grid grid-cols-3">
         <div className="col-span-2">

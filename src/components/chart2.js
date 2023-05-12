@@ -4,6 +4,7 @@ function MyStory() {
   return (
     <div>
       <iframe
+        title="Chart 2"
         src="https://public.flourish.studio/story/1915564/embed?header=0&footer=0"
         width="100%"
         height="800"

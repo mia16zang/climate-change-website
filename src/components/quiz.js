@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Quiz() {
   const navigate = useNavigate();
+  // eslint-disable-next-line
   const [totalPoints, setTotalPoints] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState({});
 
@@ -121,7 +122,6 @@ function Quiz() {
     });
     console.log(points);
     setTotalPoints(points);
-    const newpoints = totalPoints;
     navigate("/results", { state: { points } });
   };
 

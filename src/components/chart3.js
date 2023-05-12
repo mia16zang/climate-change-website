@@ -4,6 +4,7 @@ function MySankey() {
   return (
     <div style={{ height: "600px" }}>
       <iframe
+        title="Chart 3"
         src="https://public.flourish.studio/visualisation/13728594/embed?header=0&footer=0"
         width="100%"
         height="800px"
